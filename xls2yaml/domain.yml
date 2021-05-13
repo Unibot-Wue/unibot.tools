@@ -1,0 +1,46 @@
+intents:
+- faq
+responses:
+  utter_faq/imported_1:
+  - text: Der Personalausweis kostet 37,00 € und ist 10 Jahre gültig. Für Antragsteller
+      unter 24 Jahren beträgt die Gebühr 22,80 € bei einer Gültigkeit von 6 Jahren.
+      Der vorläufige Personalausweis kostet 10,00 € und ist 3 Monate gültig.
+  utter_faq/imported_2:
+  - text: Bei der Beantragung des Personalausweises bringen Sie bitte ein Ausweisdokument
+      (Reisepass, alter Personalausweis, Kinderausweis) zur Identifizierung mit. Für
+      den Personalausweis oder den vorläufigen Personalausweis benötigen Sie je ein
+      aktuelles biometrisches Lichtbild, das nicht älter als 1/2 Jahr und nicht bereits
+      für Ihren alten Ausweis oder Reisepass verwendet worden ist.
+  utter_faq/imported_3:
+  - text: Der Reisepass kostet für alle Bürger unter 24 Jahren 37,50 EUR und ist 6
+      Jahre gültig. Ansonsten beträgt die Gebühr 60,00 EUR. Die Gültigkeit beträgt
+      10 Jahre. Der vorläufige Reisepass kostet 26,00 EUR und ist max. 1 Jahr gültig
+      und kann anlassbezogen verkürzt werden. Die Gebühr für die Ausstellung eines
+      Kinderreisepasses beträgt 13,00 EUR, die Verlängerung kostet 6,00 EUR.
+  utter_faq/imported_4:
+  - text: Ein Termin zur Beantragung ist für gewöhnlich nicht nötig. Sie können aber
+      selbstverständlich einen Termin über die 0931/370 buchen falls Sie das wünschen.
+  utter_faq/imported_5:
+  - text: Für Antragsteller unter 24 Jahren beträgt die Gebühr 22,80 € bei einer Gültigkeit
+      von 6 Jahren. Der vorläufige Personalausweis kostet 10,00 € und ist 3 Monate
+      gültig.
+  utter_faq/imported_6:
+  - text: Nach den gesetzlichen Vorschriften ist jeder Deutsche, der das 16. Lebensjahr
+      vollendet hat, verpflichtet, sich ausweisen zu können. Dies geschieht in der
+      Regel durch den Besitz eines Personalausweises (oder Reisepasses). Die Beantragung
+      eines Reisepasses für Minderjährige (also vor Vollendung des 18. Lebensjahres)
+      obliegt der Person, die als Sorgeberechtigte den Aufenthalt zu bestimmen hat.
+      Der Reisepass ist generell aber nicht verpflichtend. Es kann jedoch vorkommen,
+      dass der Reisepass zur Einreise bestimmter Länder und Regionen erfolrderlich
+      ist.
+  utter_faq/imported_7:
+  - text: Im Normalfall können Sie mit einer Bearbeitungsdauer von ca. 3 Wochen rechnen
+      (abhängig von Auftragslage der Bundesdruckerei in Berlin). Der vorläufige Personalausweis
+      wird sofort ausgestellt.
+  utter_faq/imported_8:
+  - text: Bei Verlust des Personalausweises ist unverzüglich die Personalausweisbehörde
+      zu verständigen. Lassen Sie dort oder über den telefonischen Sperrnotruf (gebührenpflichtig
+      116 116) umgehend ihre Online-Ausweisfunktion sperren.
+  utter_faq/imported_9:
+  - text: Die Abholung kann auch durch eine von Ihnen beauftragte Person erfolgen.
+      Hierzu müssen Sie jedoch eine entsprechende Vollmacht ausstellen.

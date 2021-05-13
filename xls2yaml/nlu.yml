@@ -1,0 +1,170 @@
+nlu:
+- examples: |-
+    - Wann kann ich mich zurückmelden?
+    - Ich möchte mich zurückmelden?
+    - Wie ist das mit dem Rückmelden?
+    - Wann ist der Rückmeldezeitraum?
+    - Wo erfolgt die Rückmeldung?
+    - Wie erfolgt die Rückmeldung?
+    - Können Sie mir bei der Rückmeldung helfen?
+    - Kannst du mir bei der Rückmeldung helfen?
+    - Ich weiß nicht, wo ich mich zurückmelden muss.
+    - Ich weiß nicht, wo ich mich zurückmelden muss.
+  intent: reregistration
+- examples: |-
+    - Wie kann ich meinen Studentenausweis validieren?
+    - Wo kann ich meinen Ausweis validieren?
+    - Wie validiere ich meine Fahrkarte?
+    - Wo finde ich den Validierungsautomaten?
+    - Wie kann ich meine Chipkarte validieren?
+    - Wo kann ich meinen Studierendenausweis validieren?
+  intent: validation
+- examples: |-
+    - Wo kann ich mich zu den Klausuren anmelden?
+    - Wie kann ich mich zu den Klausuren anmelden?
+    - Bis wann muss ich mich zu den Klausuren anmelden?
+    - Bis wann kann ich mich zu den Klausuren anmelden?
+    - Bis wann muss ich zu den Klausuren angemeldet sein?
+    - Muss ich mich zu den Klausuren anmelden?
+    - Klausurenanmeldung
+    - Welche Frist gibt es für die Klausurenanmeldung?
+    - Wann endet der Anmeldezeitraum für die Klausuren?
+    - Von wann bis wann geht der Anmeldezeitraum der Klausuren?
+    - Von wann bis wann ist der Anmeldezeitraum für die Klausuren?
+    - Von wann bis wann ist der Anmeldezeitraum der Klausuren?
+    - Von wann bis wann geht der Anmeldezeitraum der Klausuren?
+    - Bis wann muss ich mich zu den Klausuren anmelden?
+  intent: exam_registration
+- examples: |-
+    - Was ist ein JMU Account?
+    - Wie erhalte ich meinen JMU Account?
+    - Wie erhalte ich meinen studentischen E-Mail Account?
+    - Wie erhalte ich einen Zugang zu WueStudy, WueCampus und meiner Uni Mail?
+  intent: jmu_account
+- examples: |-
+    - Wo finde ich Studienbescheinigungen?
+    - Wo erhalte ich meine Immatrikulationsbescheinigung?
+    - Wo finde ich eine Bescheinigung für Studienleistungen?
+    - Wie erhalte ich eine Bescheinigung für Prüfungsleistung mit Verifikationsleistung?
+    - Wie bekomme ich eine Bafög-Bescheinigung?
+    - Wo finde ich meine Rentenversicherungsbescheinigung?
+    - Wie erhalte ich eine Bescheinigung für angemeldete Prüfungen?
+  intent: certificate_of_study
+- examples: |-
+    - Wo bewerbe ich mich für einen Wohnheimplatz?
+    - Wie bekomme ich eine Wohnung im Wohnheim?
+    - Ich möchte mich fürs Wohnheim bewerben.
+  intent: dorm_application
+- examples: |-
+    - Wie stelle ich meinen Stundenplan zusammen?
+    - Welche Fächer muss ich belegen?
+    - Was ist ein Studienverlaufsplan?
+    - Welche Fächer müssen in meinen Stundenplan?
+  intent: studyplan
+- examples: |-
+    - Wo finde ich meinen Stundenplan?
+    - Welches Fach habe ich als nächstes?
+    - Wann habe ich welchen Kurs?
+    - Um wie viel Uhr habe ich diesen Kurs?
+    - Welches Fach habe ich Montag um 8 Uhr?
+    - Wie gelange ich zu meinem Stundenplan?
+    - Wo ist mein Stundenplan?
+  intent: timetable
+- examples: |-
+    - Wo finde ich das Vorlesungsverzeichnis?
+    - Was ist das Vorlesungsverzeichnis?
+    - Wo kann ich Kurse finden, die ich belegen kann?
+    - Welche Kurse kann ich belegen?
+    - Welche Kurse muss ich belegen?
+    - Wo gibt es eine Übersicht über angebotene Fächer?
+  intent: course_cataloge
+- examples: |-
+    - Gibt es eine Einführungsveranstaltung für mein Studium?
+    - Wann habe ich meine Einführungsveranstaltung?
+    - Was sind Einführungsveranstaltungen?
+    - Wann ist die Einführungsveranstaltung?
+  intent: introductory_event
+- examples: |-
+    - Gibt es ein Sportangebot der Uni Würzburg?
+    - Gibt es ein Angebot an verschiedenen Sportarten?
+    - Wo finde ich Sportkurse?
+    - Wo ist das Sportzentrum?
+    - Wo kann ich in Würzburg Sport machen?
+  intent: sport
+- examples: |-
+    - Wie kann ich Kommilitonen kennenlernen?
+    - Wo finde ich Freunde?
+    - Wo kann ich Mitstudierende finden?
+    - Wer studiert mit mir?
+    - Wer sind meine Kommilitonen?
+  intent: fellow_students
+- examples: |-
+    - Was ist Bafög?
+    - Was ist BAföG?
+  intent: bafög
+- examples: |-
+    - Wo kann ich Bafög beantragen?
+    - Wie erreiche ich das Bafög-Amt?
+    - Wie erreiche ich das Bafög Amt?
+    - Ich möchte Bafög beantragen.
+    - Ich brauche Hilfe bei Bafög.
+    - Ich brauche Hilfe für meinen Bafög-Antrag.
+    - Ich brauche Hilfe für meinen Bafög Antrag.
+    - Wo finde ich Hilfe für meinem Bafög-Antrag?
+    - Ich brauche Hilfe beim Bafög-Antrag.
+    - Wo kann ich BAföG beantragen?
+    - Wie erreiche ich das BAföG-Amt?
+    - Wie erreiche ich das BAföG Amt?
+    - Ich möchte BAföG beantragen.
+    - Ich brauche Hilfe bei BAföG.
+    - Ich brauche Hilfe für meinen BAföG-Antrag.
+    - Ich brauche Hilfe für meinen BAföG Antrag.
+    - Wo finde ich Hilfe für meinem BAföG-Antrag?
+    - Ich brauche Hilfe beim BAföG-Antrag.
+  intent: bafög_antrag
+- examples: |-
+    - Was ist die Fachschaft?
+    - Was ist eine Fachschaft?
+    - Was versteht man unter der Fachschaft?
+    - Wie erreiche ich die Fachschaft?
+    - Wer vertritt die Interessen der Studierenden?
+    - Wer vertritt die Interessen der Studenten?
+  intent: student_council
+- examples: |-
+    - Instagram
+    - Insta
+    - Seid ihr auch auf Insta?
+    - Seid ihr auch auf Instagram?
+    - Kann man euch auf Insta finden?
+    - Kann man euch auf Instragram finden?
+    - Findet man euch auf Insta?
+    - Findet man euch auf Instagram?
+  intent: instagram
+- examples: |-
+    - Wo finde ich die Lehrstühle?
+    - Wo finde ich Informationen zu den Lehrstühlen?
+    - Welche Lehrstühle gibt es?
+    - Wie viele Lehrstühle gibt es?
+    - Wo finde ich weitere Informationen zu den angebotenen Fächern?
+  intent: chairs
+- examples: |-
+    - Ich finde kein Zimmer.
+    - Ich finde keine Wohnung.
+    - Ich brauche Unterstützung bei der Wohnungssuche.
+    - Wo finde ich Hilfe zur Wohnungssuche?
+    - Wie finde ich ein Zimmer?
+    - Wie finde ich ein Zimmer in Würzburg?
+    - Ich würde gerne nach Würzburg ziehen?
+    - Wo finde ich Wohnungen in Würzburg?
+  intent: apartment_search
+- examples: |-
+    - Was macht Würzburg aus?
+    - Was kann ich in Würzburg machen?
+    - Welche Aktivitäten kann man in Würzburg machen?
+    - Welche Sehenswürdigkeiten findet man in Würzburg?
+  intent: wuerzburg
+- examples: |-
+    - Wie melde ich mich in Würzburg an?
+    - Wo ist das Bürgerbüro in Würzburg?
+    - Wann muss ich meine Wohnung in Würzburg anmelden?
+  intent: residence_registration

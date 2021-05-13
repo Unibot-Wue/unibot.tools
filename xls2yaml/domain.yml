@@ -1,6 +1,5 @@
-intents: |-
-  - faq
-  - mensa
+intents:
+- faq
 responses:
   utter_faq/apartment_search:
   - text: 'Du bist auf der Suche nach einer Wohnung oder einem einzelnen Zimmer in
@@ -127,5 +126,3 @@ responses:
   - text: 'Würzburg ist eine wunderschöne Stadt und bietet viele Sehenswürdigkeiten.
       Wir empfehlen im Sommer einen Besuch auf die Festung und den Stadtstrand. Im
       Winter lädt der Weihnachtsmarkt zu leckerem Punsch und gebrannten Mandeln ein. '
-  utter_mensa/speiseplan:
-  - text: 'Das ist der speiseplan '

@@ -83,25 +83,18 @@ def convert(file,filetype,ignored,answer,prefix1):
         nlu.append({"intent": intent, "examples": literal_str("\n".join(intent_dict[intent].examples))})
         responses[intent_dict[intent].action] = [{"text": intent_dict[intent].anwser}]
 
-
-    #prepare categorys for yaml
-    str_categories_list = []
-    for c in categories:
-        str_categories_list.append("- " + c)
-    str_categories = literal_str("\n".join(str_categories_list))
-
     #create yaml_files
     with open(r'nlu.yml', 'w', encoding='utf-8') as nlu_file:
         yaml.dump({"nlu":nlu}, nlu_file, allow_unicode=True)
 
     with open(r'domain.yml', 'w', encoding='utf-8') as domain_file:
-        yaml.dump({"intents":str_categories, "responses":responses}, domain_file, allow_unicode=True)
+        yaml.dump({"intents":categories, "responses":responses}, domain_file, allow_unicode=True)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='xls2yaml by viind GmbH. Copyright 2021. Initial version by MN')
     #parser.add_argument("-F", "--file", help="FAQ file", type=is_file, default='faq.csv')
     parser.add_argument("-F", "--file", help="FAQ file", default=\
-        '/Users/nicoelbert/Documents/GitHub/unibot.tools/xls2yaml/example/intent_action_table.xlsx')
+        'example\intent_action_table.xlsx')
     parser.add_argument("-T", "--type", help="Filetype", choices=['csv'], default='csv')
     parser.add_argument("-I", "--ignored", help="Ignored lines", nargs='*', default=[0])
     parser.add_argument("-A", "--answer", help="Answer column", type=int, default=1)

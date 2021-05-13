@@ -168,6 +168,3 @@ nlu:
     - Wo ist das Bürgerbüro in Würzburg?
     - Wann muss ich meine Wohnung in Würzburg anmelden?
   intent: faq/residence_registration
-- examples: |-
-    - Was ist der aktuelle speiseplan
-  intent: mensa/speiseplan

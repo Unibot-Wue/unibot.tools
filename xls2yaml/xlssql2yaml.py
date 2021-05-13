@@ -87,8 +87,7 @@ def convert(file,filetype,ignored,answer,prefix1):
     #prepare categorys for yaml
     str_categories_list = []
     for c in categories:
-        str_categories_list.append("-" + c)
-
+        str_categories_list.append("- " + c)
     str_categories = literal_str("\n".join(str_categories_list))
 
     #create yaml_files
@@ -102,7 +101,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='xls2yaml by viind GmbH. Copyright 2021. Initial version by MN')
     #parser.add_argument("-F", "--file", help="FAQ file", type=is_file, default='faq.csv')
     parser.add_argument("-F", "--file", help="FAQ file", default=\
-        'example\intent_action_table.xlsx')
+        '/Users/nicoelbert/Documents/GitHub/unibot.tools/xls2yaml/example/intent_action_table.xlsx')
     parser.add_argument("-T", "--type", help="Filetype", choices=['csv'], default='csv')
     parser.add_argument("-I", "--ignored", help="Ignored lines", nargs='*', default=[0])
     parser.add_argument("-A", "--answer", help="Answer column", type=int, default=1)

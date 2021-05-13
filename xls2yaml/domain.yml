@@ -1,6 +1,6 @@
 intents: |-
-  -faq
-  -mensa
+  - faq
+  - mensa
 responses:
   utter_faq/apartment_search:
   - text: >-

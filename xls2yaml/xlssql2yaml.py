@@ -81,7 +81,7 @@ def convert(file,filetype,ignored,answer,prefix1):
 
         #append to nlu list
         nlu.append({"intent": intent, "examples": literal_str("\n".join(intent_dict[intent].examples))})
-        responses[intent_dict[intent].action] = [{"text": folded_str(intent_dict[intent].anwser)}]
+        responses[intent_dict[intent].action] = [{"text": intent_dict[intent].anwser}]
 
 
     #prepare categorys for yaml

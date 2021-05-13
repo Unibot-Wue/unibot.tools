@@ -102,7 +102,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='xls2yaml by viind GmbH. Copyright 2021. Initial version by MN')
     #parser.add_argument("-F", "--file", help="FAQ file", type=is_file, default='faq.csv')
     parser.add_argument("-F", "--file", help="FAQ file", default=\
-        '/Users/nicoelbert/Documents/GitHub/unibot.tools/xls2yaml/example/intent_action_table.xlsx')
+        'example\intent_action_table.xlsx')
     parser.add_argument("-T", "--type", help="Filetype", choices=['csv'], default='csv')
     parser.add_argument("-I", "--ignored", help="Ignored lines", nargs='*', default=[0])
     parser.add_argument("-A", "--answer", help="Answer column", type=int, default=1)

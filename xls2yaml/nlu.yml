@@ -10,7 +10,7 @@ nlu:
     - Kannst du mir bei der Rückmeldung helfen?
     - Ich weiß nicht, wo ich mich zurückmelden muss.
     - Ich weiß nicht, wo ich mich zurückmelden muss.
-  intent: reregistration
+  intent: faq/reregistration
 - examples: |-
     - Wie kann ich meinen Studentenausweis validieren?
     - Wo kann ich meinen Ausweis validieren?
@@ -18,7 +18,7 @@ nlu:
     - Wo finde ich den Validierungsautomaten?
     - Wie kann ich meine Chipkarte validieren?
     - Wo kann ich meinen Studierendenausweis validieren?
-  intent: validation
+  intent: faq/validation
 - examples: |-
     - Wo kann ich mich zu den Klausuren anmelden?
     - Wie kann ich mich zu den Klausuren anmelden?
@@ -34,13 +34,13 @@ nlu:
     - Von wann bis wann ist der Anmeldezeitraum der Klausuren?
     - Von wann bis wann geht der Anmeldezeitraum der Klausuren?
     - Bis wann muss ich mich zu den Klausuren anmelden?
-  intent: exam_registration
+  intent: faq/exam_registration
 - examples: |-
     - Was ist ein JMU Account?
     - Wie erhalte ich meinen JMU Account?
     - Wie erhalte ich meinen studentischen E-Mail Account?
     - Wie erhalte ich einen Zugang zu WueStudy, WueCampus und meiner Uni Mail?
-  intent: jmu_account
+  intent: faq/jmu_account
 - examples: |-
     - Wo finde ich Studienbescheinigungen?
     - Wo erhalte ich meine Immatrikulationsbescheinigung?
@@ -49,18 +49,18 @@ nlu:
     - Wie bekomme ich eine Bafög-Bescheinigung?
     - Wo finde ich meine Rentenversicherungsbescheinigung?
     - Wie erhalte ich eine Bescheinigung für angemeldete Prüfungen?
-  intent: certificate_of_study
+  intent: faq/certificate_of_study
 - examples: |-
     - Wo bewerbe ich mich für einen Wohnheimplatz?
     - Wie bekomme ich eine Wohnung im Wohnheim?
     - Ich möchte mich fürs Wohnheim bewerben.
-  intent: dorm_application
+  intent: faq/dorm_application
 - examples: |-
     - Wie stelle ich meinen Stundenplan zusammen?
     - Welche Fächer muss ich belegen?
     - Was ist ein Studienverlaufsplan?
     - Welche Fächer müssen in meinen Stundenplan?
-  intent: studyplan
+  intent: faq/studyplan
 - examples: |-
     - Wo finde ich meinen Stundenplan?
     - Welches Fach habe ich als nächstes?
@@ -69,7 +69,7 @@ nlu:
     - Welches Fach habe ich Montag um 8 Uhr?
     - Wie gelange ich zu meinem Stundenplan?
     - Wo ist mein Stundenplan?
-  intent: timetable
+  intent: faq/timetable
 - examples: |-
     - Wo finde ich das Vorlesungsverzeichnis?
     - Was ist das Vorlesungsverzeichnis?
@@ -77,31 +77,31 @@ nlu:
     - Welche Kurse kann ich belegen?
     - Welche Kurse muss ich belegen?
     - Wo gibt es eine Übersicht über angebotene Fächer?
-  intent: course_cataloge
+  intent: faq/course_cataloge
 - examples: |-
     - Gibt es eine Einführungsveranstaltung für mein Studium?
     - Wann habe ich meine Einführungsveranstaltung?
     - Was sind Einführungsveranstaltungen?
     - Wann ist die Einführungsveranstaltung?
-  intent: introductory_event
+  intent: faq/introductory_event
 - examples: |-
     - Gibt es ein Sportangebot der Uni Würzburg?
     - Gibt es ein Angebot an verschiedenen Sportarten?
     - Wo finde ich Sportkurse?
     - Wo ist das Sportzentrum?
     - Wo kann ich in Würzburg Sport machen?
-  intent: sport
+  intent: faq/sport
 - examples: |-
     - Wie kann ich Kommilitonen kennenlernen?
     - Wo finde ich Freunde?
     - Wo kann ich Mitstudierende finden?
     - Wer studiert mit mir?
     - Wer sind meine Kommilitonen?
-  intent: fellow_students
+  intent: faq/fellow_students
 - examples: |-
     - Was ist Bafög?
     - Was ist BAföG?
-  intent: bafög
+  intent: faq/bafög
 - examples: |-
     - Wo kann ich Bafög beantragen?
     - Wie erreiche ich das Bafög-Amt?
@@ -121,7 +121,7 @@ nlu:
     - Ich brauche Hilfe für meinen BAföG Antrag.
     - Wo finde ich Hilfe für meinem BAföG-Antrag?
     - Ich brauche Hilfe beim BAföG-Antrag.
-  intent: bafög_antrag
+  intent: faq/bafög_antrag
 - examples: |-
     - Was ist die Fachschaft?
     - Was ist eine Fachschaft?
@@ -129,7 +129,7 @@ nlu:
     - Wie erreiche ich die Fachschaft?
     - Wer vertritt die Interessen der Studierenden?
     - Wer vertritt die Interessen der Studenten?
-  intent: student_council
+  intent: faq/student_council
 - examples: |-
     - Instagram
     - Insta
@@ -139,14 +139,14 @@ nlu:
     - Kann man euch auf Instragram finden?
     - Findet man euch auf Insta?
     - Findet man euch auf Instagram?
-  intent: instagram
+  intent: faq/instagram
 - examples: |-
     - Wo finde ich die Lehrstühle?
     - Wo finde ich Informationen zu den Lehrstühlen?
     - Welche Lehrstühle gibt es?
     - Wie viele Lehrstühle gibt es?
     - Wo finde ich weitere Informationen zu den angebotenen Fächern?
-  intent: chairs
+  intent: faq/chairs
 - examples: |-
     - Ich finde kein Zimmer.
     - Ich finde keine Wohnung.
@@ -156,15 +156,18 @@ nlu:
     - Wie finde ich ein Zimmer in Würzburg?
     - Ich würde gerne nach Würzburg ziehen?
     - Wo finde ich Wohnungen in Würzburg?
-  intent: apartment_search
+  intent: faq/apartment_search
 - examples: |-
     - Was macht Würzburg aus?
     - Was kann ich in Würzburg machen?
     - Welche Aktivitäten kann man in Würzburg machen?
     - Welche Sehenswürdigkeiten findet man in Würzburg?
-  intent: wuerzburg
+  intent: faq/wuerzburg
 - examples: |-
     - Wie melde ich mich in Würzburg an?
     - Wo ist das Bürgerbüro in Würzburg?
     - Wann muss ich meine Wohnung in Würzburg anmelden?
-  intent: residence_registration
+  intent: faq/residence_registration
+- examples: |-
+    - Was ist der aktuelle speiseplan
+  intent: mensa/speiseplan
